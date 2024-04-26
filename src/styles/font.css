@@ -1,0 +1,84 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/OxaniumRomanRegular.ttf");
+  font-family: "Oxanium";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/OxaniumRomanMedium.ttf");
+  font-family: "Oxanium";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/OxaniumRomanSemiBold.ttf");
+  font-family: "Oxanium";
+  font-weight: 600;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/LatoLight.ttf");
+  font-family: "Lato";
+  font-weight: 300;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/OxaniumRomanBold.ttf");
+  font-family: "Oxanium";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoRomanLight.ttf");
+  font-family: "Roboto";
+  font-weight: 300;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoRomanRegular.ttf");
+  font-family: "Roboto";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/LatoRegular.ttf");
+  font-family: "Lato";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/OxaniumBold.ttf");
+  font-family: "Oxanium";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/WorkSansMedium.ttf");
+  font-family: "Work Sans";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/WorkSansRegular.ttf");
+  font-family: "Work Sans";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/WorkSansBold.ttf");
+  font-family: "Work Sans";
+  font-weight: 700;
+}
