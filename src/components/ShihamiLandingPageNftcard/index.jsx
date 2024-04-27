@@ -39,7 +39,7 @@ export default function ShihamiLandingPageNftcard({
           </Button>
         </div>
         <div className="mb-[34px] flex rounded-[66px] bg-gradient1 p-3.5">
-          <Heading size="md" as="h1" className="mb-3 h-[82px] w-[82px] !font-scheherazade capitalize tracking-[2.40px]">
+          <Heading size="md" as="h1" className="mb-3 h-[84px] w-[88px] !font-scheherazade capitalize tracking-[1.40px] text-center py-5">
             {pricetext}
           </Heading>
         </div>

@@ -6,12 +6,8 @@ import ShihamiLandingPage from "pages/ShihamiLandingPage";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
-    { path: "/", element: <Home /> },
+    { path: "/", element: <ShihamiLandingPage /> },
     { path: "*", element: <NotFound /> },
-    {
-      path: "shihamilandingpage",
-      element: <ShihamiLandingPage />,
-    },
   ]);
 
   return element;

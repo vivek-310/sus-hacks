@@ -4,6 +4,7 @@ import { Text, Heading, Img, Input, Button } from "../../components";
 import Header from "../../components/Header";
 import ShihamiLandingPageNftcard from "../../components/ShihamiLandingPageNftcard";
 import ShihamiLandingPageWalletcards from "../../components/ShihamiLandingPageWalletcards";
+import { Link } from 'react-router-dom';
 
 const data = [
   {
@@ -111,7 +112,7 @@ export default function ShihamiLandingPagePage() {
                           <Heading
                             size="md"
                             as="h2"
-                            className="mb-3 h-[82px] w-[82px] !font-scheherazade capitalize tracking-[2.40px]"
+                            className="mb-3 h-[84px] w-[88px] !font-scheherazade capitalize tracking-[1.40px] text-center py-5"
                           >
                             $401
                           </Heading>
@@ -190,7 +191,7 @@ export default function ShihamiLandingPagePage() {
                           <Heading
                             size="md"
                             as="h4"
-                            className="mb-3 h-[82px] w-[82px] !font-scheherazade capitalize tracking-[2.40px]"
+                            className="mb-3 h-[84px] w-[88px] !font-scheherazade capitalize tracking-[1.40px] text-center py-5"
                           >
                             $401
                           </Heading>
@@ -281,11 +282,14 @@ export default function ShihamiLandingPagePage() {
           {/* footer section */}
           <div className="flex w-[89%] justify-center bg-gradient2 py-1.5 md:w-full md:p-5">
             <div className="container-xs mb-[43px] mt-[90px] flex items-start justify-between gap-5 pr-[93px] md:flex-col md:pr-5">
-              <Img
-                src="images/img_footer_logo.png"
-                alt="footerlogo"
-                className="h-[33px] w-[17%] object-cover md:w-full"
-              />
+              
+              <h1 className=" text-white-A700 text-5xl font-bold" onClick={()=>{
+                window.scrollTo({
+                  top:0,
+                  behavior:'smooth'
+                })
+              }}>CLAIMIT</h1>
+            
               <div className="flex w-[79%] items-center justify-between gap-5 md:w-full md:flex-col">
                 <div className="flex w-[43%] flex-col items-start gap-[69px] md:w-full sm:gap-[34px]">
                   <div className="flex flex-col gap-[59px] self-stretch sm:gap-[29px]">
