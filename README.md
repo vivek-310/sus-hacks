@@ -76,3 +76,4 @@ https://sus-hacks.vercel.app/
 * [VSCode](https://code.visualstudio.com/) - Code Editor
 * [React](https://beta.reactjs.org/) - Javascript frontend library
 * [TailwindCSS](https://tailwindcss.com/docs/installation) - CSS Library
+* [Node.js](https://nodejs.org/en/) - Javascript runtime environment
