@@ -47,7 +47,7 @@
 
 ###  Integrations and Additional Features:
 
-* Integrate with airdrop tracking services APIs for access to extensive airdrop data.
+* Integrate with airdrop tracking services APIs for real-time access to extensive airdrop data.
 * Implement email notifications or in-app alerts for new airdrop opportunities.
 * Consider gamification elements to encourage user engagement.
 * Documentation and Maintenance:
