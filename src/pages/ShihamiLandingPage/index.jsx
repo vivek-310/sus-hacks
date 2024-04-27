@@ -263,9 +263,9 @@ export default function ShihamiLandingPagePage() {
                         name="email"
                         placeholder={`info@gmail.com`}
                         suffix={
-                          <div className="flex h-[82px] w-[90px] items-center justify-center rounded-[15px]">
-                            <Img src="images/img_warning.svg" alt="warning" className="h-[82px] w-[90px]" />
-                          </div>
+                          <button onClick="submit" className='flex h-[50px] w-[100px] items-center justify-center rounded-[15px] p-5 border border-red-400 bg-red-400 text-white-A700 text-[20px]'>
+                              Submit
+                          </button>
                         }
                         className="w-[90%] sm:pl-5"
                       />
