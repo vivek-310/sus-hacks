@@ -1,4 +1,19 @@
 
+# CLAIM IT
+
+This is a hackathon project idea.Tired of missing out on free crypto? ClaimIT empowers you to discover and claim unclaimed airdrops across various blockchains.  Simply connect your wallet securely, scan for potential airdrops, and effortlessly collect hidden crypto riches.
+
+# CONTRIBUTORS
+
+* Sujith-Srikar
+* vivek-310
+* Abhinay486
+* ashrit24
+## Demo
+
+https://sus-hacks.vercel.app/
+
+
 ## Step-Step Guide
 
 ### Project Setup:
@@ -47,7 +62,7 @@
 
 ###  Integrations and Additional Features:
 
-* Integrate with airdrop tracking services APIs for real-time access to extensive airdrop data.
+* Integrate with airdrop tracking services APIs for access to extensive airdrop data.
 * Implement email notifications or in-app alerts for new airdrop opportunities.
 * Consider gamification elements to encourage user engagement.
 * Documentation and Maintenance:
