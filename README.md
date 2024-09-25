@@ -11,7 +11,7 @@ This is a hackathon project idea.Tired of missing out on free crypto? ClaimIT em
 * ashrit24
 ## Demo
 
-https://sus-hacks.vercel.app/
+https://claim-it-sh.vercel.app/
 
 
 ## Step-Step Guide
