@@ -17,8 +17,16 @@ export default function ShihamiLandingPageNftcard({
       <div className="flex flex-col items-center gap-[21px] self-stretch rounded-[15px] bg-gray-400 pb-[22px] pl-[22px] sm:pb-5 sm:pl-5">
         <div className="flex items-center justify-between gap-5 self-stretch">
           <div className="flex items-start gap-[15px] self-end">
-            <Img src="images/img_image_1.png" alt="imageone" className="h-[32px] w-[31px] object-cover" />
-            <Text size="xs" as="p" className="mt-[5px] capitalize tracking-[0.80px] !text-black-900">
+            <Img
+              src="images/img_image_1.png"
+              alt="imageone"
+              className="h-[32px] w-[31px] object-cover"
+            />
+            <Text
+              size="xs"
+              as="p"
+              className="mt-[5px] capitalize tracking-[0.80px] !text-black-900"
+            >
               {zoratext}
             </Text>
           </div>
@@ -39,7 +47,11 @@ export default function ShihamiLandingPageNftcard({
           </Button>
         </div>
         <div className="mb-[34px] flex rounded-[66px] bg-gradient1 p-3.5">
-          <Heading size="md" as="h1" className="mb-3 h-[84px] w-[88px] !font-scheherazade capitalize tracking-[1.40px] text-center py-5">
+          <Heading
+            size="md"
+            as="h1"
+            className="mb-3 h-[84px] w-[88px] !font-scheherazade capitalize tracking-[1.40px] text-center py-5"
+          >
             {pricetext}
           </Heading>
         </div>
@@ -56,19 +68,38 @@ export default function ShihamiLandingPageNftcard({
           {subtitletext}
         </Text>
         <div className="ml-2 flex items-center gap-[15px] md:ml-0">
-          <Img src="images/img_carbon_time_filled.svg" alt="carbontime" className="h-[32px] w-[32px]" />
-          <Text size="xs" as="p" className="mb-[5px] self-end !font-roboto capitalize tracking-[0.80px]">
+          <Img
+            src="images/img_carbon_time_filled.svg"
+            alt="carbontime"
+            className="h-[32px] w-[32px]"
+          />
+          <Text
+            size="xs"
+            as="p"
+            className="mb-[5px] self-end !font-roboto capitalize tracking-[0.80px]"
+          >
             {noexpirationtext}
           </Text>
         </div>
         <div className="ml-2 flex items-center gap-[15px] md:ml-0">
-          <Img src="images/img_ph_wallet_bold.svg" alt="phwalletbold" className="h-[37px]" />
-          <Text size="s" as="p" className="!font-roboto capitalize tracking-[0.90px]">
+          <Img
+            src="images/img_ph_wallet_bold.svg"
+            alt="phwalletbold"
+            className="h-[37px]"
+          />
+          <Text
+            size="s"
+            as="p"
+            className="!font-roboto capitalize tracking-[0.90px]"
+          >
             {walletidtext}
           </Text>
         </div>
       </div>
-      <Button shape="square" className="mb-[21px] min-w-[338px] font-medium text-white-A700 sm:px-5">
+      <Button
+        shape="square"
+        className="mb-[21px] min-w-[338px] gap-4 border-2 border-[#F81DFB] font-medium text-white-A700 sm:px-5"
+      >
         {claimnowbutton}
       </Button>
     </div>
